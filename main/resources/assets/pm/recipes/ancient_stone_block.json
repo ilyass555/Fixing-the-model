@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        " P ",
+        "PSP",
+        " P "
+    ],
+    "key":
+     {
+        "P":
+         {
+            "item": "pm:primordial_dust"
+        },
+        
+        "S": 
+        {
+            "item": "minecraft:stonebrick",
+            "data": 0
+        }
+    },
+        
+    "result":
+     {
+        "item": "pm:ancient_stone_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": 
+    [
+        "LLL"
+ 
+    ],
+    "key": 
+    {
+        "L": 
+        {
+            "item": "pm:ancient_stone_block"
+        }
+    },
+    "result": {
+        "item": "pm:ancient_stone_slab_half",
+        "data": 0,
+        "count": 6
+    }
+}

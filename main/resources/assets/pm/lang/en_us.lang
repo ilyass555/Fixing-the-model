@@ -1,0 +1,18 @@
+
+//Items
+item.ancient_tome.name=Ancient Tome
+item.primordial_dust.name=Primordial Dust
+item.red_crystal.name=Crimson Crystal
+item.magic_stick.name=Magic Stick
+
+//Blocks
+tile.ancient_stone_block.name=Ancient Stone
+tile.ancient_magic_table_block.name=Ancient Magic Table
+tile.ancient_jar.name=Ancient Jar
+tile.ancient_stone_slab_half.name=Ancient Stone Slab
+tile.ancient_stone_slab_double.name=Double Ancient Stone Slab
+tile.rune_stone_block.name=Rune Stone
+tile.explorer_torch.name=Explorer Torch
+
+//Tabs
+itemGroup.primordialmagic=§6Primordial §6Magic

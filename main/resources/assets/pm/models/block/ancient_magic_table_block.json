@@ -1,0 +1,97 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    
+    "textures": {
+        "ancient_stone": "pm:blocks/ancient_stone_block",
+        "ancient_magic_table": "pm:blocks/ancient_magic_table_block",
+        "particle": "pm:blocks/ancient_stone_block"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+        
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 2, 0, 2 ], 
+            "to": [ 14, 2, 14 ], 
+            "faces": {
+                "north": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 2 ] },
+                "east": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 2 ] },
+                "south": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 2 ] },
+                "west": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 2 ] },
+                "up": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 12 ] },
+                "down": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 12 ] }
+            }
+        },
+        {
+            "name": "Support",
+            "from": [ 5, 2, 5 ], 
+            "to": [ 11, 8, 11 ], 
+            "faces": {
+                "north": { "texture": "#ancient_stone", "uv": [ 8, 9, 14, 15 ] },
+                "east": { "texture": "#ancient_stone", "uv": [ 0, 0, 6, 6 ] },
+                "south": { "texture": "#ancient_stone", "uv": [ 0, 0, 6, 6 ] },
+                "west": { "texture": "#ancient_stone", "uv": [ 0, 0, 6, 6 ] }
+            }
+        },
+        {
+            "name": "LowerTop",
+            "from": [ 3, 8, 3 ], 
+            "to": [ 13, 9, 13 ], 
+            "faces": {
+                "north": { "texture": "#ancient_stone", "uv": [ 0, 0, 10, 1 ] },
+                "east": { "texture": "#ancient_stone", "uv": [ 0, 0, 10, 1 ] },
+                "south": { "texture": "#ancient_stone", "uv": [ 0, 0, 10, 1 ] },
+                "west": { "texture": "#ancient_stone", "uv": [ 0, 0, 10, 1 ] },
+                "up": { "texture": "#ancient_stone", "uv": [ 0, 0, 10, 10 ] },
+                "down": { "texture": "#ancient_stone", "uv": [ 0, 0, 10, 10 ] }
+            }
+        },
+        {
+            "name": "UpperTop",
+            "from": [ 2, 9, 2 ], 
+            "to": [ 14, 11, 14 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#ancient_stone", "uv": [ 0, 8, 12, 10 ] },
+                "east": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 2 ] },
+                "south": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 2 ] },
+                "west": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 2 ] },
+                "up": { "texture": "#ancient_magic_table", "uv": [ 2, 2, 14, 14 ] },
+                "down": { "texture": "#ancient_stone", "uv": [ 0, 0, 12, 12 ] }
+            }
+        }
+       
+      
+    ]
+}

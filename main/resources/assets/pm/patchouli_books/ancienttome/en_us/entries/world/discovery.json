@@ -1,0 +1,11 @@
+{
+  "name": "Discovery",
+  "icon": "pm:ancient_stone",
+  "category": "world",
+  "pages": [
+    {
+      "type": "text",
+      "text": "things and stuff"
+    }
+  ]
+}

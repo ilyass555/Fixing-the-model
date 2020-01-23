@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "pm:blocks/ancient_stone_block",
+        "top": "pm:blocks/ancient_stone_block",
+        "side": "pm:blocks/ancient_stone_block"
+    }
+}

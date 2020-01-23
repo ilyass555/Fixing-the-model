@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        "SPS",
+        " S ",
+        "SSS"
+    ],
+    "key":
+     {
+        "P":
+         {
+            "item": "pm:red_crystal"
+        },
+        
+        "S": 
+        {
+            "item": "pm:ancient_stone_block",
+            "data": 0
+        }
+    },
+        
+    "result":
+     {
+        "item": "pm:ancient_magic_table_block",
+        "count": 1
+    }
+}

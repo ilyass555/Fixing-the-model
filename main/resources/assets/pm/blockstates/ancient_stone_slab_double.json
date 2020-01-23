@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "variant=default": { "model": "pm:ancient_stone_slab_double" }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Ancient Tome",
+    "landing_text": "The cycle continues ???",
+    "version": 1,
+    "creative_tab": "primordialmagic",
+     "model": "pm:ancient_tome"
+   }
